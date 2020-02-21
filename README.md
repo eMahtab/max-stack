@@ -66,6 +66,9 @@ class MaxStack {
     }
 }
 ```
+### Key points :
+1. In `push(x)` operation we push the element to both main stack and maxStack
+
 
 # References :
-https://leetcode.com/articles/max-stack/
+https://leetcode.com/articles/max-stack
