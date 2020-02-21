@@ -68,7 +68,7 @@ class MaxStack {
 ```
 ### Key points :
 1. In `push(x)` operation we push the element to both main stack and maxStack
-
+2. For `popMax()`, we know what the current maximum is using `peekMax()`. We can pop from the main stack until we find that maximum, then push the popped elements back on the main stack.
 
 # References :
 https://leetcode.com/articles/max-stack
